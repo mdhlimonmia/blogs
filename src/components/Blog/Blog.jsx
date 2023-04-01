@@ -2,7 +2,6 @@ import React from 'react';
 import './Blog.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
-import Blogs from '../Blogs';
 
 const Blog = (props) => {
 

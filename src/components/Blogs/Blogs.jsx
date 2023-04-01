@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Blog from './Blog/Blog';
 import './Blogs.css'
+import Blog from "../Blog/Blog"
 import { toast } from 'react-hot-toast';
 
 const Blogs = () => {
