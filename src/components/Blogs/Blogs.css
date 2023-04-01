@@ -1,5 +1,11 @@
 
-
+@media only screen and (min-width:688px) {
+    .blogs-container{
+        display: grid;
+        grid-template-columns: 4fr 2fr;
+        gap: 20px;
+    }
+  }
 
 .blogs-time{
     color: rgba(96, 71, 236, 1);
