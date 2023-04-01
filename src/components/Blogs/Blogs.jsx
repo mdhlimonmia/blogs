@@ -14,17 +14,19 @@ const Blogs = () => {
 
     const addBookMark = (blog)=>{
         // console.log(blog);
+        
         const exitsBlog = blogHistory?.find(history => history.id===blog.id);
         if(!exitsBlog){
-            console.log(blog);
-            // const newBlog = [...blogHistory, blog];
-            // setBlogHistory(newBlog);
+            // console.log(blog);
+            // console.log("NAI");
+            const newBlog = [...blogHistory, blog];
+            setBlogHistory(newBlog);
           
             
         }
         else{
-            console.log("ACE");
-            
+            // console.log("ACE");
+          return  alert('aGE THEKEI ACE')  
 
         }
     }
@@ -45,9 +47,10 @@ const Blogs = () => {
                 </div>
                 <div className="blogs-history">
                     <h3>Bookmarked Blogs:</h3>
-                    <div>
-                        <p>Next.js tutorial with examples: Build better React apps with Next</p>
-                    </div>
+                        {/* <p>Next.js tutorial with examples: Build better React apps with Next</p> */}
+                        {
+                            blogHistory.map(history => <div key = {history.id}>{history.tittle}</div>)
+                        }
                 </div>
             </div>
         </div>
