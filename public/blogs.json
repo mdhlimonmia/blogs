@@ -1,0 +1,42 @@
+[
+    {
+        "id":"1",
+        "cover_img": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1468&q=80",
+        "author_img":"https://images.unsplash.com/profile-1619559142670-fcd58dab16a9image?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
+        "author_name":"Mr. Raju",
+        "published_date":"Mar 14 2022",
+        "read_time":"12",
+        "tittle": "How to your first job as a self-taught programmer",
+        "tag": "#beginners     #programming"
+    },
+    {
+        "id":"2",
+        "cover_img": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "author_img":"https://images.unsplash.com/profile-1619559142670-fcd58dab16a9image?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
+        "author_name":"Mr. Raju",
+        "published_date":"Aug 04 2022",
+        "read_time":"10",
+        "tittle": "How to your create your portfolio as a Programmer",
+        "tag": "#beginners     #programming"
+    },
+    {
+        "id":"3",
+        "cover_img": "https://images.unsplash.com/photo-1502951682449-e5b93545d46e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1373&q=80",
+        "author_img":"https://images.unsplash.com/profile-1619559142670-fcd58dab16a9image?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
+        "author_name":"Mr. Abul",
+        "published_date":"May 09 2022",
+        "read_time":"15",
+        "tittle": "Master Microsoft Power Platform and Become an In-Demand!",
+        "tag": "#beginners     #programming"
+    },
+    {
+        "id":"4",
+        "cover_img": "https://www.educative.io/cdn-cgi/image/f=auto,fit=contain,w=1200/api/page/6452289848475648/image/download/5294398307303424",
+        "author_img":"https://images.unsplash.com/profile-1619559142670-fcd58dab16a9image?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
+        "author_name":"Mr. Kamal",
+        "published_date":"Mar 30 2022",
+        "read_time":"13",
+        "tittle": "How to set up Next.js into the existing Expo project",
+        "tag": "#beginners     #programming"
+    }
+]

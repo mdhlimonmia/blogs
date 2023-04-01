@@ -1,0 +1,30 @@
+
+@media only screen and (min-width:688px) {
+    .blogs-container{
+        display: grid;
+        grid-template-columns: 4fr 2fr;
+        gap: 20px;
+    }
+  }
+
+.blogs-time{
+    color: rgba(96, 71, 236, 1);
+    background: rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+    padding: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid #6047EC;
+    font-weight: 700;
+}
+
+.blogs-history{
+    background: rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.blogs-history div{
+    background-color: white;
+    padding: 5px 10px;
+}
