@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Blog from './Blog/Blog';
 import './Blogs.css'
+import { toast } from 'react-hot-toast';
 
 const Blogs = () => {
     const [blogs, setBlogs]=useState([]);
@@ -26,7 +27,7 @@ const Blogs = () => {
         }
         else{
             // console.log("ACE");
-          return  alert('aGE THEKEI ACE')  
+          return  toast.error("Already Bookmarked.")
 
         }
     }
