@@ -47,8 +47,7 @@ const Blogs = () => {
                     <p >Spent time on read : {time} min</p>
                 </div>
                 <div className="blogs-history">
-                    <h3>Bookmarked Blogs:</h3>
-                        {/* <p>Next.js tutorial with examples: Build better React apps with Next</p> */}
+                    <h3>Bookmarked Blogs: {blogHistory.length}</h3>
                         {
                             blogHistory.map(history => <div key = {history.id}>{history.tittle}</div>)
                         }
