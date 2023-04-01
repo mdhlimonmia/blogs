@@ -5,7 +5,9 @@ import { toast } from 'react-hot-toast';
 
 const Blogs = () => {
     const [blogs, setBlogs]=useState([]);
-    
+
+    const [time, setTime] = useState(0);
+
     const [blogHistory, setBlogHistory] = useState([]);
     useEffect( ()=>{
         fetch('blogs.json')
@@ -14,24 +16,21 @@ const Blogs = () => {
     },[])
 
     const addBookMark = (blog)=>{
-        // console.log(blog);
-        
-        const exitsBlog = blogHistory?.find(history => history.id===blog.id);
+       const exitsBlog = blogHistory?.find(history => history.id===blog.id);
         if(!exitsBlog){
-            // console.log(blog);
-            // console.log("NAI");
             const newBlog = [...blogHistory, blog];
-            setBlogHistory(newBlog);
-          
-            
+            setBlogHistory(newBlog);         
         }
         else{
-            // console.log("ACE");
           return  toast.error("Already Bookmarked.")
 
         }
     }
-    console.log(blogHistory);
+
+    const readTime = (getTime)=>{
+        const newTime = time + parseInt(getTime);
+        setTime(newTime);
+    }
     return (
         <div className='blogs-container'>
             <div className="bogs">
@@ -39,12 +38,13 @@ const Blogs = () => {
                     blogs.map(blog => <Blog 
                         blog = {blog}
                         addBookMark = {addBookMark}
+                        readTime = {readTime}
                         key = {blog.id}></Blog>)
                 }
             </div>
             <div>
                 <div className='blogs-time'>
-                    <p >Spent time on read :</p>
+                    <p >Spent time on read : {time} min</p>
                 </div>
                 <div className="blogs-history">
                     <h3>Bookmarked Blogs:</h3>

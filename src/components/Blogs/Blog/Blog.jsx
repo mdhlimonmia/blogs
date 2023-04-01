@@ -24,7 +24,7 @@ const Blog = (props) => {
             </div>
             <h2>{tittle}</h2>
             <p> {tag} </p>
-            <a href="\readMore"><u>Mark as read</u></a>
+            <button  onClick={() => props.readTime(read_time)} ><u>Mark as read</u></button>
             <br />
             <br />
             <hr />
