@@ -14,19 +14,7 @@
     border-radius: 8px;
     margin-bottom: 32px;
 }
-@media only screen and (max-width:688px) {
-    .cover-img{
-        width: 400px;
-        height: 250px;
-        border-radius: 8px;
-        margin-bottom: 32px;
-    }
-    .blog-container{
-        /* background-color: aqua; */
-        margin-bottom: 30px;
-        padding: 10px;
-    }
-}
+
 .author{
     display: flex;
     justify-content: space-between;
